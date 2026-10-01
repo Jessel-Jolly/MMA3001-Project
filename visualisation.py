@@ -1,8 +1,8 @@
-import os
 import random
 from pathlib import Path
+
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+from matplotlib import patches
 from PIL import Image
 
 # 1. Base dataset folder relative to your python script
