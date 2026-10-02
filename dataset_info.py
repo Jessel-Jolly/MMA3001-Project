@@ -32,7 +32,7 @@ def get_instances(numbers, file):
     print(f'\t\t\tTotal Images: {len(names)}\n')
     print("Type\t\t\tTotal Instances\t\tNumber of Images")
     for index, number in enumerate(numbers):
-        print(f"{labels[index]}\t{count[index]}\t\t\t{images[index]}")
+        print(f"{labels[int(number)]}\t{count[index]}\t\t\t{images[index]}")
     print('================================================================\n')
 
 for f in files_to_check:
