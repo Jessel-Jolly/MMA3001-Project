@@ -1,0 +1,56 @@
+{
+    "model_name": "binary_model",
+    "image_size": [
+        32,
+        32
+    ],
+    "hyperparameters": {
+        "hidden_layer_sizes": [
+            30,
+            15
+        ],
+        "alpha": 0.01,
+        "early_stopping": true
+    },
+    "sample_counts": {
+        "train": 3346,
+        "validation": 122,
+        "test": 81
+    },
+    "validation_metrics": {
+        "accuracy": 0.8442622950819673,
+        "precision": 0.9238095238095239,
+        "recall": 0.8981481481481481,
+        "f1_score": 0.9107981220657277,
+        "roc_auc": 0.7503306878306878,
+        "confusion_matrix": [
+            [
+                6,
+                8
+            ],
+            [
+                11,
+                97
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n   Undamaged       0.35      0.43      0.39        14\n     Damaged       0.92      0.90      0.91       108\n\n    accuracy                           0.84       122\n   macro avg       0.64      0.66      0.65       122\nweighted avg       0.86      0.84      0.85       122\n"
+    },
+    "test_metrics": {
+        "accuracy": 0.8641975308641975,
+        "precision": 0.9393939393939394,
+        "recall": 0.8985507246376812,
+        "f1_score": 0.9185185185185185,
+        "roc_auc": 0.8743961352657005,
+        "confusion_matrix": [
+            [
+                8,
+                4
+            ],
+            [
+                7,
+                62
+            ]
+        ],
+        "classification_report": "              precision    recall  f1-score   support\n\n   Undamaged       0.53      0.67      0.59        12\n     Damaged       0.94      0.90      0.92        69\n\n    accuracy                           0.86        81\n   macro avg       0.74      0.78      0.76        81\nweighted avg       0.88      0.86      0.87        81\n"
+    }
+}

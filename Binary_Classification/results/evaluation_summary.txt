@@ -1,0 +1,44 @@
+=================================================================
+MMA3001 PACKAGING QUALITY INSPECTION - BINARY NN REPORT
+=================================================================
+
+Model Name       : binary_model.joblib
+Dataset          : Pork Rasher Error-Packaging-.v4i.yolov11
+Hidden Layers    : (30, 15)
+Alpha (L2)       : 0.01
+Feature Dimension: 32x32x3
+
+-----------------------------------------------------------------
+SIDE-BY-SIDE PERFORMANCE SUMMARY
+-----------------------------------------------------------------
+Metric               | Validation Set     | Test Set          
+-----------------------------------------------------------------
+Accuracy             | 0.8443             | 0.8642            
+Precision            | 0.9238             | 0.9394            
+Recall               | 0.8981             | 0.8986            
+F1-Score             | 0.9108             | 0.9185            
+ROC-AUC              | 0.7503             | 0.8744            
+
+-----------------------------------------------------------------
+VALIDATION CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+   Undamaged       0.35      0.43      0.39        14
+     Damaged       0.92      0.90      0.91       108
+
+    accuracy                           0.84       122
+   macro avg       0.64      0.66      0.65       122
+weighted avg       0.86      0.84      0.85       122
+
+
+-----------------------------------------------------------------
+TEST CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+   Undamaged       0.53      0.67      0.59        12
+     Damaged       0.94      0.90      0.92        69
+
+    accuracy                           0.86        81
+   macro avg       0.74      0.78      0.76        81
+weighted avg       0.88      0.86      0.87        81
+
