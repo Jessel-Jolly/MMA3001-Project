@@ -1,10 +1,5 @@
 """
 Unit tests for packaging neural network dataset, model pipeline, and evaluation workflow.
-
-MMA3001 Project Brief Alignment:
-- Validates code correctness and reproducible software engineering standards.
-- Tests label parsing, feature extraction, scaling pipeline, side-by-side evaluation,
-  model persistence via joblib, and output results folder creation.
 """
 
 import os
@@ -16,7 +11,7 @@ from PIL import Image
 
 # Robust import of dataset module
 try:
-    from dataset import parse_label_file, extract_image_features, load_dataset_split
+    from Binary_Classification.dataset import parse_label_file, extract_image_features, load_dataset_split
 except ImportError:
     import importlib.util
     _cur_dir = os.path.dirname(os.path.abspath(__file__))
@@ -33,7 +28,7 @@ except ImportError:
 
 # Robust import of model module
 try:
-    from model import (
+    from Binary_Classification.model import (
         build_mlp_pipeline,
         evaluate_model,
         train_and_evaluate,

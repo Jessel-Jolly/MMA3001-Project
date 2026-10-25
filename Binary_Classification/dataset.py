@@ -3,10 +3,6 @@ Dataset loading and feature extraction module for binary packaging defect classi
 
 This module processes image files and YOLO-formatted label text files to prepare feature
 matrices (X) and binary targets (y) for machine learning classifiers.
-
-MMA3001 Project Brief Alignment:
-- Clear specification of inputs (JPEG images, YOLO txt labels) and outputs (flattened feature vectors, binary labels).
-- Defensive handling of missing or empty label files.
 """
 
 import os

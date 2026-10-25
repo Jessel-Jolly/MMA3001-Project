@@ -1,15 +1,5 @@
 """
-Unit test suite for packaging damage inference engine (v2).
-
-Validates:
-- Automatic image size inference directly from the trained model pipeline.
-- Single image inference without requiring manual image_size inputs.
-- Input file handling for both direct image files and text/CSV files listing image paths.
-- Directory batch inference without requiring image_size.
-- Unified predict() dispatcher across images, list files, and directories.
-- Edge case handling (missing files, unsupported extensions).
-
-Compatible with both pytest and python -m unittest.
+Unit test suite for packaging damage inference engine.
 """
 
 import os
@@ -26,14 +16,14 @@ import joblib
 _cur_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, _cur_dir)
 
-from model import build_mlp_pipeline
+from Binary_Classification.model import build_mlp_pipeline
 
-# Robust dynamic import to handle hyphenated file names like predict_damage-v2.py
-_pred_v2_path = os.path.join(_cur_dir, "predict_damage-v2.py")
-if not os.path.exists(_pred_v2_path):
-    _pred_v2_path = os.path.join(_cur_dir, "predict_damage.py")
+# Robust dynamic import to handle hyphenated file names like predict_damage.py
+_pred_path = os.path.join(_cur_dir, "predict_damage.py")
+if not os.path.exists(_pred_path):
+    _pred_path = os.path.join(_cur_dir, "predict_damage.py")
 
-_spec = importlib.util.spec_from_file_location("predict_damage_v2", _pred_v2_path)
+_spec = importlib.util.spec_from_file_location("predict_damage", _pred_path)
 _pred_mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_pred_mod)
 
@@ -46,9 +36,9 @@ predict = _pred_mod.predict
 format_prediction_result = _pred_mod.format_prediction_result
 
 
-class TestPredictDamageV2(unittest.TestCase):
+class TestPredictDamage(unittest.TestCase):
     """
-    Test suite for v2 prediction module.
+    Test suite for prediction module.
     """
 
     @classmethod
@@ -56,7 +46,7 @@ class TestPredictDamageV2(unittest.TestCase):
         """
         Creates a temporary working directory, a trained miniature model, and sample test files.
         """
-        cls.temp_dir = tempfile.mkdtemp(prefix="test_predict_damage_v2_")
+        cls.temp_dir = tempfile.mkdtemp(prefix="test_predict_damage_")
 
         # 16x16 RGB image -> 768 features
         cls.test_side = 16

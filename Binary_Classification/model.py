@@ -3,13 +3,6 @@ Neural Network model pipeline for binary packaging defect classification.
 
 This module builds, trains, evaluates, saves, and loads a Scikit-Learn
 Multilayer Perceptron (MLP) pipeline for detecting packaging damage in frozen meat products.
-
-MMA3001 Project Brief & Week 05 Notes Alignment:
-- Feature scaling via StandardScaler in a Scikit-learn Pipeline to condition neural network optimization.
-- L2 Regularisation (alpha) to control model capacity and weight magnitude.
-- Early stopping to monitor internal validation loss and prevent overfitting.
-- Model persistence via joblib for reproducible deployment and verification.
-- Comprehensive model evaluation across validation and test sets (Precision, Recall, F1, ROC-AUC).
 """
 
 import os

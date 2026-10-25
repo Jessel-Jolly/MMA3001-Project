@@ -1,12 +1,6 @@
 """
 Main execution script for training, evaluating, and exporting the packaging damage
 binary neural network classifier.
-
-MMA3001 Project Brief Alignment:
-- Demonstrates executable computational workflow.
-- Integrates feature scaling, L2 regularisation, early stopping, and model persistence.
-- Evaluates performance across both external Validation and withheld Test splits.
-- Automatically exports the trained model and metrics to a designated results subfolder.
 """
 
 import os

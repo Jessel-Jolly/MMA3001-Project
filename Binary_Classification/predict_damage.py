@@ -4,17 +4,6 @@ Packaging defect classification inference engine (v2).
 This module provides standalone inference capabilities for the packaging damage
 binary classification neural network. It can evaluate any individual image, a file
 (an image file or a text/CSV file listing image paths), or an entire directory of images.
-
-Key Enhancements in v2:
-- Automatically infers the required spatial image resolution directly from the
-  trained model pipeline (n_features_in_), eliminating the need for manual image_size inputs.
-- Extended file input support: accepts single image files, text/CSV files listing image paths,
-  or directories.
-- Seamless CLI and programmatic API with robust exception handling and Google-style docstrings.
-
-MMA3001 Project Brief Alignment:
-- Demonstrates an executable computational workflow for model deployment and demonstration.
-- Adheres to clean code standards, defensive programming, and type hinting.
 """
 
 import os
