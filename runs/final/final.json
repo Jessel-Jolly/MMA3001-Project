@@ -1,0 +1,1580 @@
+[
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_102_jpg.rf.10163b7e614de52a86d75cf0c2def998.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7658,
+                "bbox_xyxy": [
+                    0.0,
+                    310.84,
+                    352.26,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_10465_jpg.rf.eb7d6ac5b6b71b3722832e87f41cd2f6.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_121_jpg.rf.ad75eafa25397a05aab1e53d4ef575a4.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1271_jpg.rf.fe7e60f579e43de1fb7bde872ffbaebd.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8443,
+                "bbox_xyxy": [
+                    506.31,
+                    357.23,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1298_jpg.rf.bbe700517e6a8b837196fec1a3c425c7.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1405_jpg.rf.061b0a529d86947d72614947d16b3105.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8461,
+                "bbox_xyxy": [
+                    522.44,
+                    347.75,
+                    719.82,
+                    539.85
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1427_jpg.rf.adb68bb9baac518a460e12f99d1eea7a.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8106,
+                "bbox_xyxy": [
+                    534.26,
+                    342.94,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1458_jpg.rf.ae22a9f677e9aed6399eb2e34616688c.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3902,
+                "bbox_xyxy": [
+                    0.0,
+                    377.04,
+                    154.76,
+                    461.76
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.302,
+                "bbox_xyxy": [
+                    0.0,
+                    375.8,
+                    234.42,
+                    467.23
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1521_jpg.rf.8c2f93027627984923b4cfbc699e59aa.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8731,
+                "bbox_xyxy": [
+                    432.81,
+                    326.18,
+                    718.88,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_161_jpg.rf.f72001c0662bd4c495561eb27ae19c27.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.6524,
+                "bbox_xyxy": [
+                    570.61,
+                    344.83,
+                    720.0,
+                    470.31
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1695_jpg.rf.0fcc67310f01b5c3361403020eaa6afa.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_1787_jpg.rf.2ea27acbeb8b9e0111c2e985f7385aca.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8697,
+                "bbox_xyxy": [
+                    485.57,
+                    357.8,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_199_jpg.rf.63479a7f3c3327f4defa236157780da0.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3071,
+                "bbox_xyxy": [
+                    543.44,
+                    413.61,
+                    637.88,
+                    449.97
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_21_jpg.rf.898d2cd3db0cf96ae2985d594121f268.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.6657,
+                "bbox_xyxy": [
+                    638.47,
+                    313.57,
+                    719.54,
+                    390.49
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_2248_jpg.rf.7c29cf90087a6d4ca2ad1307d8f513f5.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_2317_jpg.rf.4abeaf71220b626a1722542689671962.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_258_jpg.rf.1c18d8fd20e681b1fcaba54e790497ba.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_2942_jpg.rf.f88a77f5e5850991ececec7b5eeb48ab.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7745,
+                "bbox_xyxy": [
+                    535.15,
+                    359.92,
+                    719.87,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3117_jpg.rf.f7143bc7a934176ecafb9727e3c2642b.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3321,
+                "bbox_xyxy": [
+                    0.0,
+                    326.19,
+                    302.49,
+                    538.42
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3303_jpg.rf.e910cc45370cc6f42f828d98731af54f.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3371_jpg.rf.55a1977413f15016b60c76339853127c.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3381_jpg.rf.4c8e152ca96d5379f50edec0a07be4ff.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3436_jpg.rf.e78209989a2d95373bfecbac626586e6.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3441_jpg.rf.79e0b525cf26a895a83f36acf7306fe5.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.863,
+                "bbox_xyxy": [
+                    0.0,
+                    395.76,
+                    308.98,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3482_jpg.rf.ec3c9d1e545fdeaa05ff8aa1e74f20fc.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3613_jpg.rf.1ed0f21e31122bbd73cb2fc03343c796.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.6148,
+                "bbox_xyxy": [
+                    594.7,
+                    336.58,
+                    673.82,
+                    420.28
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3640_jpg.rf.adb54738f9865e3acf4cb278483626b4.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7474,
+                "bbox_xyxy": [
+                    517.4,
+                    306.78,
+                    719.92,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_378_jpg.rf.2dd94f946948c9b3fd658453b1f66659.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3798_jpg.rf.9f1624d9a1e503f4e4431fe4da78a2bc.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7111,
+                "bbox_xyxy": [
+                    549.74,
+                    361.51,
+                    720.0,
+                    485.33
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3899_jpg.rf.517bf2fa01309b7bebc4005f13eeb87a.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8818,
+                "bbox_xyxy": [
+                    0.19,
+                    367.59,
+                    324.72,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_3989_jpg.rf.ab2fcb5504c7b4e0406b08f046079d7e.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8448,
+                "bbox_xyxy": [
+                    511.49,
+                    302.26,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4027_jpg.rf.a6f44b268122672f97fda5baeeb66564.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.478,
+                "bbox_xyxy": [
+                    563.74,
+                    377.87,
+                    626.91,
+                    410.06
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.2812,
+                "bbox_xyxy": [
+                    550.72,
+                    367.0,
+                    634.57,
+                    423.12
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4088_jpg.rf.b5f45a560eeca8215eaa6d0d8560f23d.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4145_jpg.rf.26217bb5cebff04bbf9e18485dad08a8.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 3,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.369,
+                "bbox_xyxy": [
+                    510.93,
+                    411.66,
+                    717.62,
+                    520.06
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3632,
+                "bbox_xyxy": [
+                    512.52,
+                    411.03,
+                    719.28,
+                    483.92
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3512,
+                "bbox_xyxy": [
+                    570.25,
+                    399.72,
+                    606.52,
+                    440.44
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_416_jpg.rf.10ba8209fe5aec5822bee8ec5a855c12.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8611,
+                "bbox_xyxy": [
+                    528.35,
+                    337.14,
+                    719.93,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4170_jpg.rf.d8c8752306e12c3db16b1e549e58179b.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_437_jpg.rf.1d88cff92b7d5f81c694265df9667631.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4426_jpg.rf.7ec891625c20dc5a99fc57817a7b7f43.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8825,
+                "bbox_xyxy": [
+                    439.94,
+                    355.37,
+                    719.49,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4523_jpg.rf.e10c146cc2a21372e966ce0d4bacad26.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8486,
+                "bbox_xyxy": [
+                    510.23,
+                    335.82,
+                    720.0,
+                    539.35
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_4983_jpg.rf.7697e05ecb6cd0337b730163c771eda3.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.6068,
+                "bbox_xyxy": [
+                    537.33,
+                    334.04,
+                    720.0,
+                    465.17
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_5732_jpg.rf.fffdcea3178955c65f10574477e5ab0e.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8164,
+                "bbox_xyxy": [
+                    527.89,
+                    347.81,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_5849_jpg.rf.4cdf1fef179bfc4b9e2c0dcf16ddef4a.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8825,
+                "bbox_xyxy": [
+                    0.0,
+                    355.93,
+                    353.99,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_595_jpg.rf.8d890b5eeca398f20dfb87f1f0caaeb7.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6121_jpg.rf.f2258ac89262687db40a856df49c5899.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8603,
+                "bbox_xyxy": [
+                    501.96,
+                    358.04,
+                    719.98,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6170_jpg.rf.60e13e7d6f7453a270bc117d6df14401.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8823,
+                "bbox_xyxy": [
+                    458.05,
+                    337.13,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6185_jpg.rf.d4e5d9f0405ac5e1a8242368abe834bd.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 4,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.602,
+                "bbox_xyxy": [
+                    189.17,
+                    365.96,
+                    236.38,
+                    410.56
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.4353,
+                "bbox_xyxy": [
+                    75.26,
+                    374.29,
+                    126.68,
+                    413.21
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.4024,
+                "bbox_xyxy": [
+                    78.15,
+                    373.23,
+                    146.4,
+                    420.52
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3899,
+                "bbox_xyxy": [
+                    181.64,
+                    363.39,
+                    245.22,
+                    415.83
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6253_jpg.rf.97b0c50d4f0b4fec5ca62db6445421bc.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.5958,
+                "bbox_xyxy": [
+                    520.62,
+                    371.42,
+                    617.69,
+                    416.01
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.2835,
+                "bbox_xyxy": [
+                    499.74,
+                    360.94,
+                    632.56,
+                    424.97
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_62_jpg.rf.235c461fc3473a015573bc95703559c9.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6338_jpg.rf.c5a0b580e8afd15a2bdbaf89c12f9275.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.6535,
+                "bbox_xyxy": [
+                    544.76,
+                    361.6,
+                    720.0,
+                    482.56
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6345_jpg.rf.646ddb93ffd4c1c11732bb0aeaadfbc8.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.5857,
+                "bbox_xyxy": [
+                    22.39,
+                    405.19,
+                    120.75,
+                    433.67
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.376,
+                "bbox_xyxy": [
+                    198.73,
+                    362.17,
+                    236.34,
+                    390.17
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6397_jpg.rf.9f801c0762592a6cd25240028bc551de.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8629,
+                "bbox_xyxy": [
+                    474.07,
+                    357.47,
+                    719.99,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6433_jpg.rf.f07e91c50eeb1b20ade7b84892a06103.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.6071,
+                "bbox_xyxy": [
+                    498.6,
+                    386.47,
+                    720.0,
+                    503.95
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6456_jpg.rf.226f9ab4ac529c02377d9585a05760f9.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.849,
+                "bbox_xyxy": [
+                    0.0,
+                    268.41,
+                    415.27,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_692_jpg.rf.828d9bbaf673731730594982cec5fd0e.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8837,
+                "bbox_xyxy": [
+                    475.61,
+                    350.56,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6945_jpg.rf.8c79f189a3a59182373e044a6d39a406.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3758,
+                "bbox_xyxy": [
+                    649.09,
+                    347.22,
+                    720.0,
+                    540.0
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3512,
+                "bbox_xyxy": [
+                    581.79,
+                    348.5,
+                    719.92,
+                    536.34
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_6959_jpg.rf.39ba7ab31540816c3dfa68bd65c3a08d.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8557,
+                "bbox_xyxy": [
+                    484.38,
+                    345.49,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7073_jpg.rf.6b327fb33d4f97d2ecc85a8e38d3ba0c.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 4,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.6007,
+                "bbox_xyxy": [
+                    660.61,
+                    385.6,
+                    719.99,
+                    436.36
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.5684,
+                "bbox_xyxy": [
+                    499.24,
+                    403.6,
+                    717.22,
+                    496.92
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.5415,
+                "bbox_xyxy": [
+                    526.16,
+                    392.71,
+                    560.56,
+                    442.93
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3162,
+                "bbox_xyxy": [
+                    466.45,
+                    396.33,
+                    719.47,
+                    481.79
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_72_jpg.rf.8d5d4b6332707b85eb5b278d5c584b2a.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8636,
+                "bbox_xyxy": [
+                    503.62,
+                    339.79,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7325_jpg.rf.c5be3d172377edf96f4a7c7c2eaab561.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7399_jpg.rf.c12f458c6ae9a53b4ab6f25b8a60fc2d.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7926,
+                "bbox_xyxy": [
+                    520.72,
+                    346.24,
+                    720.0,
+                    535.7
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7471_jpg.rf.d9733c9a3c8e75ec75d4c6c9f744a199.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7647,
+                "bbox_xyxy": [
+                    564.41,
+                    371.79,
+                    720.0,
+                    525.03
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7506_jpg.rf.c7c42fbdaa7e02d1a127e7257a932047.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3337,
+                "bbox_xyxy": [
+                    586.35,
+                    391.71,
+                    613.42,
+                    419.13
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7510_jpg.rf.ab32fc359f85d0aa457f0c8cf746ac00.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.5567,
+                "bbox_xyxy": [
+                    603.14,
+                    359.76,
+                    663.97,
+                    412.19
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3209,
+                "bbox_xyxy": [
+                    607.53,
+                    363.65,
+                    654.84,
+                    402.34
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7531_jpg.rf.c468cc456d436b955f3d23777bb9d7f8.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.5722,
+                "bbox_xyxy": [
+                    533.07,
+                    369.74,
+                    720.0,
+                    484.78
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7581_jpg.rf.643d807e929eb3fb4229da9ccb82da2c.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8795,
+                "bbox_xyxy": [
+                    484.52,
+                    354.62,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7617_jpg.rf.9c6fe7f0294ef5016d532ac1ac8c668f.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8617,
+                "bbox_xyxy": [
+                    454.36,
+                    351.45,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7744_jpg.rf.04e89867c456a8d73e4872337c46deb1.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8552,
+                "bbox_xyxy": [
+                    0.0,
+                    313.63,
+                    435.33,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_7893_jpg.rf.53c7f2fe486e519510e24c1969f28004.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3111,
+                "bbox_xyxy": [
+                    550.92,
+                    374.03,
+                    702.19,
+                    407.78
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.2531,
+                "bbox_xyxy": [
+                    532.2,
+                    381.35,
+                    720.0,
+                    514.03
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8146_jpg.rf.a450e9c7be73cccfebf9a7ae85eeb715.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.5084,
+                "bbox_xyxy": [
+                    537.06,
+                    354.93,
+                    719.93,
+                    445.7
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8182_jpg.rf.45c8c258b30a36db457e27e6957c7c88.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8614,
+                "bbox_xyxy": [
+                    521.86,
+                    350.41,
+                    720.0,
+                    539.53
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8208_jpg.rf.4656d0a5bebf6c4c06953f58cdf9f518.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7171,
+                "bbox_xyxy": [
+                    561.12,
+                    355.01,
+                    720.0,
+                    471.78
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.4074,
+                "bbox_xyxy": [
+                    555.14,
+                    347.65,
+                    720.0,
+                    529.3
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8337_jpg.rf.62df5e8671f3272c3a81cd68051bed85.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.4539,
+                "bbox_xyxy": [
+                    576.75,
+                    327.52,
+                    720.0,
+                    452.83
+                ]
+            },
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.3981,
+                "bbox_xyxy": [
+                    577.45,
+                    330.72,
+                    720.0,
+                    530.57
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8565_jpg.rf.2f2a654db05f7e86fe194c43acd84be2.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8476,
+                "bbox_xyxy": [
+                    510.27,
+                    346.52,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_8625_jpg.rf.cf26cbd0770a03ee0c4ab4f6963dd4df.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 2,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3047,
+                "bbox_xyxy": [
+                    582.2,
+                    345.62,
+                    697.62,
+                    402.5
+                ]
+            },
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.2772,
+                "bbox_xyxy": [
+                    643.15,
+                    344.94,
+                    682.27,
+                    389.06
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_889_jpg.rf.20efea8fc63b20aac8f23efa64587dfc.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8438,
+                "bbox_xyxy": [
+                    491.26,
+                    345.62,
+                    720.0,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_9017_jpg.rf.230edf95839a83874962766972f6d5c9.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.7822,
+                "bbox_xyxy": [
+                    0.0,
+                    354.54,
+                    318.33,
+                    531.63
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_908_jpg.rf.049ec4bdc03dbb17fb37a5b08cb582fd.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.3808,
+                "bbox_xyxy": [
+                    706.39,
+                    370.27,
+                    719.9,
+                    396.74
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_9202_jpg.rf.71f21b567f76b4b718313b50ab15ba26.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8524,
+                "bbox_xyxy": [
+                    505.65,
+                    379.96,
+                    719.95,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_9300_jpg.rf.b85ccc6ecd8ac14c935463fcc1000580.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 3,
+                "class_name": "Unsealed",
+                "confidence": 0.8696,
+                "bbox_xyxy": [
+                    464.65,
+                    326.06,
+                    719.71,
+                    540.0
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_931_jpg.rf.86f53ca410df31a9454bf379946a8d9c.jpg",
+        "is_damaged": false,
+        "classification_label": "Undamaged Packaging",
+        "num_defects": 0,
+        "detections": [],
+        "annotated_saved_to": null
+    },
+    {
+        "image_path": "/Users/user/Desktop/Monash/MMA3001/MMA3001-Project/Pork Rasher Error-Packaging-.v4i.yolov11/test/images/frame_with_red_963_jpg.rf.dede332c5fe70a1727466ca431dc897e.jpg",
+        "is_damaged": true,
+        "classification_label": "Damaged Packaging",
+        "num_defects": 1,
+        "detections": [
+            {
+                "class_id": 1,
+                "class_name": "Packaging Error",
+                "confidence": 0.545,
+                "bbox_xyxy": [
+                    150.01,
+                    336.09,
+                    211.62,
+                    368.54
+                ]
+            }
+        ],
+        "annotated_saved_to": null
+    }
+]
