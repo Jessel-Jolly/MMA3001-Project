@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_evaluate_yolo_model.TestEvaluateYOLOModel-20261025152847" tests="2" file="test_evaluate_yolo_model.py" time="0.010" timestamp="2026-10-25T15:28:47" failures="0" errors="0" skipped="0">
+	<testcase classname="test_evaluate_yolo_model.TestEvaluateYOLOModel" name="test_evaluate_image_level_accuracy" time="0.008" timestamp="2026-10-25T15:28:47" file="Tests/test_evaluate_yolo_model.py" line="76">
+		<!--
+        Tests binary and multiclass accuracy calculation on a 4-sample mock dataset:
+        1. Clean image correctly predicted as Clean (TN)
+        2. Clean image falsely predicted as Loose Meat / Class 0 (FP)
+        3. Defect image (Class 1) correctly predicted as Class 1 (TP)
+        4. Defect image (Class 2) missed / predicted as Clean (FN)
+        -->
+	</testcase>
+	<testcase classname="test_evaluate_yolo_model.TestEvaluateYOLOModel" name="test_load_ground_truth_classes" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_evaluate_yolo_model.py" line="60">
+		<!--Validates class parsing for empty (undamaged) and defect label files.-->
+	</testcase>
+</testsuite>

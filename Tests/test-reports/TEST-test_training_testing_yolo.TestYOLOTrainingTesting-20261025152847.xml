@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_training_testing_yolo.TestYOLOTrainingTesting-20261025152847" tests="4" file="test_training_testing_yolo.py" time="0.005" timestamp="2026-10-25T15:28:47" failures="0" errors="0" skipped="0">
+	<testcase classname="test_training_testing_yolo.TestYOLOTrainingTesting" name="test_test_missing_weights_raises_error" time="0.001" timestamp="2026-10-25T15:28:47" file="Tests/test_training_testing_yolo.py" line="41">
+		<!--test_yolo_model should raise FileNotFoundError if weights do not exist.-->
+	</testcase>
+	<testcase classname="test_training_testing_yolo.TestYOLOTrainingTesting" name="test_test_yolo_model_mocked_execution" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_training_testing_yolo.py" line="74">
+		<!--test_yolo_model should instantiate YOLO and call .val() with correct arguments.-->
+		<system-out><![CDATA[============================================================
+Evaluating YOLO Model on 'test' Split
+Weights     : /var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_yolo_train_test_ve1147e1/best.pt
+Dataset YAML: /var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_yolo_train_test_ve1147e1/data.yaml
+============================================================
+
+Per-class mAP50: [0.85, 0.9]
+Confusion Matrix and validation outputs saved to: runs/detect/val_test
+]]></system-out>
+	</testcase>
+	<testcase classname="test_training_testing_yolo.TestYOLOTrainingTesting" name="test_train_missing_yaml_raises_error" time="0.001" timestamp="2026-10-25T15:28:47" file="Tests/test_training_testing_yolo.py" line="35">
+		<!--train_yolo_model should raise FileNotFoundError if data.yaml is missing.-->
+	</testcase>
+	<testcase classname="test_training_testing_yolo.TestYOLOTrainingTesting" name="test_train_yolo_model_mocked_execution" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_training_testing_yolo.py" line="47">
+		<!--train_yolo_model should instantiate YOLO and call .train() with correct arguments.-->
+		<system-out><![CDATA[============================================================
+Starting YOLO Model Training
+Model       : yolo11n.pt
+Dataset YAML: /var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_yolo_train_test_jgv90mmc/data.yaml
+Epochs      : 5 | Batch: 8 | ImgSz: 320
+Run Name    : unit_test_run
+============================================================
+]]></system-out>
+	</testcase>
+</testsuite>

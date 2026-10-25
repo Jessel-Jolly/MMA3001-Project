@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_predict_damage.TestPredictDamage-20261025152955" tests="8" file="test_predict_damage.py" time="0.012" timestamp="2026-10-25T15:29:55" failures="0" errors="0" skipped="0">
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_infer_image_size_from_model" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="93">
+		<!--Tests that spatial dimensions (16, 16) are correctly inferred from model features.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_load_binary_model" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="102">
+		<!--Tests model loading and missing file exception.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_missing_target_raises_error" time="0.000" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="171">
+		<!--Tests that passing a non-existent target raises FileNotFoundError.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_predict_directory_without_image_size" time="0.002" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="146">
+		<!--Tests predict_directory without passing image_size.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_predict_file_with_image" time="0.002" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="130">
+		<!--Tests predict_file when given a direct image file without image_size.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_predict_file_with_text_list" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="137">
+		<!--Tests predict_file when given a .txt file containing image paths.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_predict_image_without_image_size" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="111">
+		<!--Tests that predict_image runs successfully without providing image_size.-->
+	</testcase>
+	<testcase classname="test_predict_damage.TestPredictDamage" name="test_predict_unified_dispatcher" time="0.004" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_predict_damage.py" line="155">
+		<!--Tests the unified predict() entry point on image, text list, and directory.-->
+	</testcase>
+</testsuite>

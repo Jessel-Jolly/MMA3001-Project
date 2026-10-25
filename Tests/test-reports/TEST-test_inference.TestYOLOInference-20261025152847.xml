@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_inference.TestYOLOInference-20261025152847" tests="7" file="test_inference.py" time="0.006" timestamp="2026-10-25T15:28:47" failures="0" errors="0" skipped="0">
+	<testcase classname="test_inference.TestYOLOInference" name="test_format_cli_summary" time="0.000" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="155">
+		<!--Tests terminal summary formatting for damaged and undamaged records.-->
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_load_yolo_model_missing_file_raises_error" time="0.000" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="56">
+		<!--Tests that loading a non-existent weights file raises FileNotFoundError.-->
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_predict_images_batch_directory_and_json_export" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="119">
+		<!--Tests batch directory processing and structured JSON export.-->
+		<system-out><![CDATA[[+] Prediction records exported to JSON: /private/var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_yolo_infer_p2nha6g0/batch_output.json
+]]></system-out>
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_predict_images_batch_empty_folder" time="0.000" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="146">
+		<!--Tests batch processing on an empty folder without errors.-->
+		<system-out><![CDATA[[Warning] No supported image files found under: '/private/var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_yolo_infer_p2nha6g0/empty_dir'
+]]></system-out>
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_predict_single_image_damaged_detection" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="70">
+		<!--Tests single image prediction when defect bounding boxes are detected.-->
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_predict_single_image_missing_image_raises_error" time="0.000" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="63">
+		<!--Tests that predicting on a non-existent image raises FileNotFoundError.-->
+	</testcase>
+	<testcase classname="test_inference.TestYOLOInference" name="test_predict_single_image_undamaged_detection" time="0.001" timestamp="2026-10-25T15:28:47" file="Tests/test_inference.py" line="100">
+		<!--Tests single image prediction when no bounding boxes are detected (intact).-->
+	</testcase>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_packaging.TestPackagingNeuralNetwork-20261025152955" tests="6" file="test_packaging.py" time="0.046" timestamp="2026-10-25T15:29:55" failures="0" errors="0" skipped="0">
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_extract_image_features_shape_and_bounds" time="0.009" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="85">
+		<!--Image feature vector must match target flattened dimension and fall within [0.0, 1.0].-->
+	</testcase>
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_parse_label_file_empty_undamaged" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="71">
+		<!--Empty label text file must be parsed as class 0 (Undamaged).-->
+	</testcase>
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_parse_label_file_non_empty_damaged" time="0.001" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="78">
+		<!--Non-empty label text file with bounding boxes must be parsed as class 1 (Damaged).-->
+	</testcase>
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_pipeline_architecture" time="0.000" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="95">
+		<!--Pipeline should contain StandardScaler and MLPClassifier with specified parameters.-->
+	</testcase>
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_save_and_load_model" time="0.016" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="128">
+		<!--Verifies model saving to Binary_Classification/results folder and reloading with joblib.-->
+		<system-err><![CDATA[/Users/user/Library/Python/3.9/lib/python/site-packages/sklearn/neural_network/_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (20) reached and the optimization hasn't converged yet.
+  warnings.warn(
+]]></system-err>
+	</testcase>
+	<testcase classname="test_packaging.TestPackagingNeuralNetwork" name="test_train_and_evaluate_with_test_split" time="0.020" timestamp="2026-10-25T15:29:55" file="Binary_Classification/test_packaging.py" line="104">
+		<!--Pipeline must evaluate both validation and withheld test splits properly.-->
+	</testcase>
+</testsuite>

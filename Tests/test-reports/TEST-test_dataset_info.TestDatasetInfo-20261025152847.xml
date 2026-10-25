@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_dataset_info.TestDatasetInfo-20261025152847" tests="3" file="test_dataset_info.py" time="0.005" timestamp="2026-10-25T15:28:47" failures="0" errors="0" skipped="0">
+	<testcase classname="test_dataset_info.TestDatasetInfo" name="test_empty_labels_counted_as_undamaged" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_dataset_info.py" line="28">
+		<!--Empty label text files should be counted as undamaged (last index).-->
+	</testcase>
+	<testcase classname="test_dataset_info.TestDatasetInfo" name="test_single_and_multiple_defect_instances" time="0.001" timestamp="2026-10-25T15:28:47" file="Tests/test_dataset_info.py" line="47">
+		<!--Valid defect annotations should update corresponding class indices.-->
+	</testcase>
+	<testcase classname="test_dataset_info.TestDatasetInfo" name="test_summarize_dataset_splits" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_dataset_info.py" line="80">
+		<!--summarize_dataset should iterate across all requested splits.-->
+	</testcase>
+</testsuite>

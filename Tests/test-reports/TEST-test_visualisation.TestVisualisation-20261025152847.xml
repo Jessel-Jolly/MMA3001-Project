@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_visualisation.TestVisualisation-20261025152847" tests="4" file="test_visualisation.py" time="0.397" timestamp="2026-10-25T15:28:47" failures="0" errors="0" skipped="0">
+	<testcase classname="test_visualisation.TestVisualisation" name="test_get_all_image_pairs" time="0.004" timestamp="2026-10-25T15:28:47" file="Tests/test_visualisation.py" line="49">
+		<!--Pairs should correctly associate images with matching label txt files.-->
+	</testcase>
+	<testcase classname="test_visualisation.TestVisualisation" name="test_parse_yolo_labels_empty_or_missing" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_visualisation.py" line="71">
+		<!--Missing or empty files should return empty box lists.-->
+	</testcase>
+	<testcase classname="test_visualisation.TestVisualisation" name="test_parse_yolo_labels_valid" time="0.002" timestamp="2026-10-25T15:28:47" file="Tests/test_visualisation.py" line="58">
+		<!--Normalized YOLO format should correctly de-normalize to pixel coordinates.-->
+	</testcase>
+	<testcase classname="test_visualisation.TestVisualisation" name="test_plot_sample_images_headless" time="0.389" timestamp="2026-10-25T15:28:47" file="Tests/test_visualisation.py" line="81">
+		<!--plot_sample_images should execute cleanly with show=False and save figure.-->
+		<system-out><![CDATA[Annotated plot saved to /private/var/folders/qs/fmrgzf7j5zg0k4hlyqndgwx80000gp/T/test_vis_4x6cemfc/output_plot.png
+]]></system-out>
+	</testcase>
+</testsuite>
