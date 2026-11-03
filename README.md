@@ -100,7 +100,7 @@ python3 inference.py "Pork Rasher Error-Packaging-.v4i.yolov11/test/images" \
 
 #### Train & Evaluate
 ```bash
-python3 train_packaging_nn-v2.py \
+python3 train_packaging.py \
   --dataset_dir "Pork Rasher Error-Packaging-.v4i.yolov11" \
   --output_dir "Binary_Classification/results" \
   --model_name "binary_model"
@@ -110,10 +110,10 @@ Outputs model weights (`binary_model.joblib`), evaluation summaries, and confusi
 #### Run Inference
 ```bash
 # Single image (resolution is auto-inferred from model)
-python3 predict_damage-v2.py "path/to/image.jpg"
+python3 predict_damage.py "path/to/image.jpg"
 
 # Batch folder
-python3 predict_damage-v2.py \
+python3 predict_damage.py \
   --dir "Pork Rasher Error-Packaging-.v4i.yolov11/test/images" \
   --output_json "Binary_Classification/results/predictions.json"
 ```
@@ -168,12 +168,12 @@ The dataset and project files are organised as follows:
 │
 ├── Binary_Classification/         # Scikit-Learn MLP
 │   ├── dataset.py                 # Label parsing, feature extraction, and split loaders
-│   ├── model-v2.py                # Scikit-Learn MLP pipeline, training, and evaluation logic
-│   ├── train_packaging_nn-v2.py   # Main training script; outputs model and evaluation reports
-│   ├── predict_damage-v2.py       # Standalone inference engine (auto-infers resolution)
-│   ├── test_packaging_nn-v2.py    # Tests for functions used for MLP
-│   ├── test_predict_damage-v2.py  # Tests for functions used for MLP
-│   ├── results/                    # Contains MLP model and validation and testing results
+│   ├── model.py                   # Scikit-Learn MLP pipeline, training, and evaluation logic
+│   ├── train_packaging.py         # Main training script; outputs model and evaluation reports
+│   ├── predict_damage.py          # Standalone inference engine (auto-infers resolution)
+│   ├── test_packaging_nn.py       # Tests for functions used for MLP
+│   ├── test_predict_damage.py     # Tests for functions used for MLP
+│   ├── results/                   # Contains MLP model and validation and testing results
 │   └── test_reports/              # Automated results from test suite
 │
 ├── dataset_info.py                # Class distribution and defect instance tallying
